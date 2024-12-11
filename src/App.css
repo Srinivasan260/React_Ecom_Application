@@ -1,0 +1,27 @@
+/* .Main-content{
+  display: flex;
+  flex-direction: column;
+ 
+
+} */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content grows to fill available space */
+.Main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer styles */
+footer {
+  background-color: #f8f9fa; /* Light gray */
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.1); /* Optional: add a shadow for style */
+}
